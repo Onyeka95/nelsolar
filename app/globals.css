@@ -1,26 +1,103 @@
 @import "tailwindcss";
+@tailwind utilities;
 
+/* ─── Nelsolar Design Tokens ─────────────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-amber:            #F59E0B;
+  --color-navy:             #1E3A5F;
+  --color-green:            #10B981;
+  --color-slate-dark:       #0F172A;
+  --color-slate-body:       #1E293B;
+  --color-slate-secondary:  #64748B;
+  --color-off-white:        #FAFAFA;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ─── Smooth Scroll ──────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ─── Custom Scrollbar (Webkit — Chrome, Safari, Edge) ───────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-amber);
+  border-radius: 9999px;
+  border: 2px solid var(--color-navy);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706; /* amber-600 — slightly darker on hover */
+}
+
+/* ─── Custom Scrollbar (Firefox) ────────────────────────────────────────── */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-amber) var(--color-navy);
+}
+
+/* ─── Base Layer Overrides ───────────────────────────────────────────────── */
+@layer base {
+  body {
+    background-color: var(--color-off-white);
+    color: var(--color-slate-body);
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-syne), system-ui, sans-serif;
+    color: var(--color-slate-body);
+  }
+
+  /* Focus ring uses amber for brand consistency */
+  :focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 3px;
+    border-radius: 4px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ─── Utility Layer Extras ───────────────────────────────────────────────── */
+@layer utilities {
+  /* Frosted glass — used by the sticky Navbar on scroll */
+  .glass {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  /* Marquee animation — used by the Partners ticker */
+  .animate-marquee {
+    animation: marquee 28s linear infinite;
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  /* Subtle amber radial glow — used by the Hero section */
+  .hero-glow {
+    background:
+      radial-gradient(
+        ellipse 60% 55% at 85% 15%,
+        rgba(245, 158, 11, 0.18) 0%,
+        transparent 70%
+      ),
+      #1E3A5F;
+  }
 }
