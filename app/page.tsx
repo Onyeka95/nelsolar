@@ -6,6 +6,10 @@ import SolarCalculator from "@/components/SolarCalculator";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import PartnersSection from "@/components/PartnersSection";
 import InstallationSection from "@/components/InstallationSection";
+import ConsultationSection from "@/components/ConsultationSection";
+import FAQSection from "@/components/FAQSection";
+import TeamSection from "@/components/TeamSection";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
@@ -18,15 +22,10 @@ export default function HomePage() {
       <TestimonialsSection />
       <PartnersSection />
       <InstallationSection />
-
-      {/*
-       * ── Sections — uncomment as each component is built ──────────────
-       *
-       * <ConsultationSection />
-       * <TeamSection />
-       * <FAQSection />
-       * <Footer />
-       */}
+      <ConsultationSection />
+      <FAQSection />
+      <TeamSection />
+      <Footer />
     </>
   );
 }

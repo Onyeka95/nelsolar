@@ -190,7 +190,7 @@ export default function HeroSection() {
             <span
               className="
                 inline-flex items-center gap-1.5
-                bg-amber text-navy
+                bg-amber text-white
                 font-syne text-xs font-bold tracking-widest uppercase
                 rounded-full px-4 py-1.5 shadow-amber
               "
@@ -230,7 +230,7 @@ export default function HeroSection() {
               onClick={() => scrollTo("products")}
               className="
                 group flex items-center justify-center gap-2
-                bg-amber text-navy font-syne font-bold text-base
+                bg-amber text-white/70 font-syne font-bold text-base
                 px-7 py-3.5 rounded-lg shadow-amber
                 hover:scale-105 hover:brightness-105 active:scale-95
                 transition-all duration-200
@@ -300,7 +300,7 @@ export default function HeroSection() {
             "
           >
             <Image
-              src="/images/hero-solar.jpg"
+              src="/images/jos_panel.jpg"
               alt="Solar panel installation on a Nigerian home rooftop — Nelsolar"
               fill
               priority

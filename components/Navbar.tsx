@@ -29,6 +29,7 @@ const productCategories: ProductCategory[] = [
 ];
 
 const navLinks: NavLink[] = [
+  { label: "Gallery",       href: "/gallery"        },
   { label: "Installation",  href: "/#installation"  },
   { label: "Consultation",  href: "/#consultation"  },
   { label: "About Us",      href: "/about"          },
@@ -100,7 +101,7 @@ function ProductsDropdown({ scrolled }: { scrolled: boolean }) {
         className={`
           group flex items-center gap-1 py-1 text-sm font-medium tracking-wide
           relative transition-colors duration-300
-          ${scrolled ? "text-navy hover:text-amber" : "text-white/90 hover:text-amber"}
+          ${scrolled ? "text-navy hover:text-amber" : "text-amber hover:text-amber"}
         `}
         aria-expanded={open}
         aria-haspopup="true"
@@ -170,7 +171,7 @@ function DesktopNavLink({
       className={`
         group relative py-1 text-sm font-medium tracking-wide
         transition-colors duration-300
-        ${scrolled ? "text-navy hover:text-amber" : "text-white/90 hover:text-amber"}
+        ${scrolled ? "text-navy hover:text-amber" : "text-amber hover:text-amber"}
       `}
     >
       {label}
@@ -241,7 +242,7 @@ export default function Navbar() {
               className={`
                 font-syne text-xl font-bold tracking-tight
                 transition-colors duration-300
-                ${scrolled ? "text-navy" : "text-white"}
+                ${scrolled ? "text-navy" : "text-amber"}
               `}
             >
               Nelsolar
@@ -289,11 +290,11 @@ export default function Navbar() {
             aria-expanded={drawerOpen}
           >
             {drawerOpen ? (
-              <X size={24} className="text-white" />
+              <X size={24} className="text-navy" />
             ) : (
               <Menu
                 size={24}
-                className={`transition-colors duration-300 ${scrolled ? "text-navy" : "text-white"}`}
+                className={`transition-colors duration-300 ${scrolled ? "text-navy" : "text-navy"}`}
               />
             )}
           </button>

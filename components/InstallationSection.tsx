@@ -228,10 +228,10 @@ export default function InstallationSection() {
               aria-hidden="true"
             />
             <div>
-              <h3 className="font-syne font-bold text-white text-xl leading-snug">
+              <h3 className="font-syne font-bold text-[#1E3A5F] text-xl leading-snug">
                 Need a Custom Installation Quote?
               </h3>
-              <p className="mt-1 text-white/70 text-sm leading-relaxed max-w-md">
+              <p className="mt-1 text-[#1E3A5F] text-sm leading-relaxed max-w-md">
                 Tell us your location and energy needs — we&rsquo;ll match you with the
                 right installer and give you a transparent Naira quote.
               </p>
