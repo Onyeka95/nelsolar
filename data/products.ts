@@ -38,7 +38,7 @@ export const products: Product[] = [
       "A high-efficiency 100W monocrystalline panel ideal for small homes and apartments. Built with premium silicon cells for maximum output even on cloudy days. Comes with a 25-year performance warranty.",
     specs: ["100W", "Monocrystalline", "25yr Warranty"],
     badge: "In Stock",
-    image: "/images/products/panel-100w.jpg",
+    image: "/images/rooftop_ikoyi.jpg",
   },
   {
     id: "panel-200w-mono",
@@ -50,7 +50,7 @@ export const products: Product[] = [
       "Our best-selling 200W panel delivers reliable power for medium-sized homes across Nigeria. Monocrystalline technology ensures top-tier efficiency in Nigeria's high-sun climate. Certified by IEC and ISO standards.",
     specs: ["200W", "Monocrystalline", "25yr Warranty"],
     badge: "In Stock",
-    image: "/images/products/panel-200w.jpg",
+    image: "/images/panel-200w.jpeg",
   },
   {
     id: "panel-400w-half-cut",
@@ -62,33 +62,33 @@ export const products: Product[] = [
       "Premium 400W half-cut cell panel engineered for maximum performance in Nigeria's tropical heat. Half-cut technology reduces resistive losses and improves shade tolerance significantly. Perfect for offices, businesses, and large residential systems.",
     specs: ["400W", "Half-Cut Cell", "25yr Warranty"],
     badge: "In Stock",
-    image: "/images/products/panel-400w.jpg",
+    image: "/images/panel-400w.jpeg",
   },
 
   // ─── Solar Batteries ─────────────────────────────────────────────────────────
   {
     id: "battery-100ah-lifepo4",
-    name: "100Ah Lithium Iron Phosphate (LiFePO4) Battery",
-    slug: "100ah-lifepo4-battery",
+    name: "5KWH Lithium Ion Battery || 100AH",
+    slug: "100ah-lithium-battery",
     category: "batteries",
     price: 180_000,
     description:
-      "The gold standard in solar storage — this 100Ah LiFePO4 battery offers over 3,000 charge cycles and a 10-year lifespan. Lightweight, maintenance-free, and safe with no risk of thermal runaway. Ideal for daily cycling in Nigerian off-grid systems.",
-    specs: ["100Ah", "LiFePO4", "3000+ Cycles"],
+      "The gold standard in solar storage — this 100Ah Lithium ion battery offers over 3,000 charge cycles and a 10-year lifespan. Lightweight, maintenance-free, and safe with no risk of thermal runaway. Ideal for daily cycling in Nigerian off-grid systems.",
+    specs: ["100Ah", "Lithium", "3000+ Cycles"],
     badge: "In Stock",
-    image: "/images/products/battery-100ah-lifepo4.jpg",
+    image: "/images/battery-lifepo4-100ah.jpeg",
   },
   {
     id: "battery-200ah-gel",
-    name: "200Ah Gel Deep Cycle Battery",
+    name: "10kWH LVTOPSUN Lithium Ion Battery",
     slug: "200ah-gel-deep-cycle-battery",
     category: "batteries",
     price: 120_000,
     description:
-      "A robust 200Ah gel deep cycle battery built for daily discharge in Nigerian solar setups. Sealed, spill-proof design means zero maintenance and safe indoor installation. Compatible with all standard solar inverters and charge controllers.",
-    specs: ["200Ah", "Gel Deep Cycle", "Sealed"],
+      "A robust 10kwh lithium ion deep cycle battery built for daily discharge in Nigerian solar setups. Sealed, spill-proof design means zero maintenance and safe indoor installation. Compatible with all standard solar inverters and charge controllers.",
+    specs: ["10Kwh", "Gel Deep Cycle", "Sealed"],
     badge: "In Stock",
-    image: "/images/products/battery-200ah-gel.jpg",
+    image: "/images/10kwh-lithium-battery.jpeg",
   },
   {
     id: "battery-150ah-agm",
@@ -100,7 +100,7 @@ export const products: Product[] = [
       "Affordable and reliable 150Ah AGM battery, a popular choice for first-time solar buyers in Nigeria. Absorbent Glass Mat technology delivers stable power output and handles deep discharges well. No water topping required — fully sealed and maintenance-free.",
     specs: ["150Ah", "AGM", "Maintenance-Free"],
     badge: "In Stock",
-    image: "/images/products/battery-150ah-agm.jpg",
+    image: "/images/battery-agm.jpeg",
   },
 
   // ─── Solar Lights ─────────────────────────────────────────────────────────────
@@ -114,7 +114,7 @@ export const products: Product[] = [
       "A powerful 60W all-in-one solar street light suitable for roads, estates, car parks, and compounds in Nigeria. Automatically turns on at dusk and off at dawn with a built-in PIR motion sensor. Durable IP65-rated housing withstands Nigeria's rainy season.",
     specs: ["60W", "PIR Motion Sensor", "IP65 Rated"],
     badge: "In Stock",
-    image: "/images/products/light-street-60w.jpg",
+    image: "/images/street-light.jpeg",
   },
   {
     id: "light-garden-pack4",
@@ -126,7 +126,7 @@ export const products: Product[] = [
       "Beautify and secure your garden, driveway, or pathway with this pack of 4 solar garden lights. No wiring needed — simply stake into the ground and let the sun do the rest. Automatic dusk-to-dawn operation with warm LED glow.",
     specs: ["Pack of 4", "Auto Dusk-to-Dawn", "Stake Mount"],
     badge: "In Stock",
-    image: "/images/products/light-garden-pack4.jpg",
+    image: "/images/garden-light.jpeg",
   },
   {
     id: "light-floodlight-100w",
@@ -138,7 +138,7 @@ export const products: Product[] = [
       "High-output 100W solar security floodlight for warehouses, gates, filling stations, and business premises. Motion-activated with a 120-degree wide detection angle for comprehensive coverage. Heavy-duty aluminium housing stands up to Nigerian weather year-round.",
     specs: ["100W", "Motion Activated", "120° Detection"],
     badge: "Limited",
-    image: "/images/products/light-floodlight-100w.jpg",
+    image: "/images/floodlight.jpeg",
   },
 
   // ─── Solar Generators ─────────────────────────────────────────────────────────
@@ -152,7 +152,7 @@ export const products: Product[] = [
       "A complete plug-and-play 1kVA solar generator kit — panels, battery, inverter, and charge controller included. Powers fans, lights, TVs, and phone charging for small 1–2 bedroom apartments. Eliminate generator fuel costs and enjoy clean, silent power.",
     specs: ["1kVA", "Complete Kit", "Off-Grid Ready"],
     badge: "In Stock",
-    image: "/images/products/generator-1kva.jpg",
+    image: "/images/generator-1kva.jpeg",
   },
   {
     id: "generator-3kva-system",
@@ -164,7 +164,7 @@ export const products: Product[] = [
       "A full 3kVA off-grid solar system designed for 3-bedroom Nigerian homes. Runs air conditioners, refrigerators, washing machines, and all essential appliances without NEPA or generator fuel. Engineered for 24/7 power independence.",
     specs: ["3kVA", "Full System", "AC Compatible"],
     badge: "In Stock",
-    image: "/images/products/generator-3kva.jpg",
+    image: "/images/gen2.jpeg",
   },
   {
     id: "generator-5kva-offgrid",
@@ -176,7 +176,7 @@ export const products: Product[] = [
       "Our flagship 5kVA off-grid system for large homes, offices, schools, and SMEs across Nigeria. Supports heavy loads including multiple ACs, industrial equipment, and commercial refrigeration. Fully expandable — add more panels or batteries as your needs grow.",
     specs: ["5kVA", "Off-Grid", "Expandable"],
     badge: "Limited",
-    image: "/images/products/generator-5kva.jpg",
+    image: "/images/system-5kva.jpeg",
   },
 
   // ─── Inverters ────────────────────────────────────────────────────────────────
@@ -202,7 +202,7 @@ export const products: Product[] = [
       "A high-capacity 3.5kVA solar hybrid inverter with a built-in MPPT charge controller for seamless panel integration. Automatically switches between solar, battery, and NEPA grid without interruption. Handles multiple large appliances simultaneously for full-home coverage.",
     specs: ["3.5kVA", "Hybrid", "Built-in MPPT"],
     badge: "In Stock",
-    image: "/images/products/inverter-3-5kva.jpg",
+    image: "/images/inverter-3-5kva.jpeg",
   },
 
   // ─── Charge Controllers ───────────────────────────────────────────────────────
