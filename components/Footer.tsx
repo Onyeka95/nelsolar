@@ -210,7 +210,7 @@ export default function Footer() {
               {socialLinks.map(({ icon: Icon, label }) => (
                 <a
                   key={label}
-                  href="#"
+                  href={waLink}
                   aria-label={`Nelsolar on ${label}`}
                   className="
                     w-9 h-9 rounded-full

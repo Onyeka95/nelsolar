@@ -15,11 +15,11 @@ interface TeamMember {
 /* ─── Data ───────────────────────────────────────────────────────────────── */
 const team: TeamMember[] = [
   {
-    name:     "Nelson Okafor",
+    name:     "Nelson Ejike",
     role:     "Founder & CEO",
     bio:      "Nelson founded Nelsolar with a mission to make reliable solar energy accessible to every Nigerian. With over 5 years in the renewable energy sector, he has led the installation of more than 300 solar systems across Nigeria.",
-    initials: "NO",
-    linkedin: "#",
+    initials: "NE",
+    linkedin: "https://x.com/AGUNNAYA135",
   },
   {
     name:     "Onyeka Innocent",
