@@ -148,7 +148,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="
                 flex items-center gap-2
-                bg-amber text-navy
+                bg-amber text-white border border-white
                 font-syne font-bold text-sm
                 rounded-xl px-5 py-3
                 hover:scale-105 transition-all duration-200
@@ -194,12 +194,12 @@ export default function Footer() {
             {/* Contact details */}
             <ul className="mt-6 space-y-3">
               {[
-                { Icon: Phone,  text: "+234 800 000 0000"              },
+                { Icon: Phone,  text: "+234 813 773 1660"              },
                 { Icon: Mail,   text: "hello@nelsolar.ng"              },
                 { Icon: MapPin, text: "Lagos, Nigeria (Nationwide Service)" },
               ].map(({ Icon, text }) => (
                 <li key={text} className="flex items-start gap-2.5">
-                  <Icon size={15} className="text-amber shrink-0 mt-0.5" aria-hidden="true" />
+                  <Icon size={15} className="text-white/70 shrink-0 mt-0.5" aria-hidden="true" />
                   <span className="text-white/70 text-sm">{text}</span>
                 </li>
               ))}
@@ -253,7 +253,7 @@ export default function Footer() {
                 <li key={point} className="flex items-start gap-2">
                   <CheckCircle
                     size={14}
-                    className="text-amber shrink-0 mt-0.5"
+                    className="text-white/70 shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                   <span className="text-white/60 text-sm">{point}</span>

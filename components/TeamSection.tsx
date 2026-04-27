@@ -17,16 +17,16 @@ const team: TeamMember[] = [
   {
     name:     "Nelson Okafor",
     role:     "Founder & CEO",
-    bio:      "Nelson founded Nelsolar with a mission to make reliable solar energy accessible to every Nigerian. With over 10 years in the renewable energy sector, he has led the installation of more than 500 solar systems across Nigeria.",
+    bio:      "Nelson founded Nelsolar with a mission to make reliable solar energy accessible to every Nigerian. With over 5 years in the renewable energy sector, he has led the installation of more than 300 solar systems across Nigeria.",
     initials: "NO",
     linkedin: "#",
   },
   {
-    name:     "Chidi Eze",
+    name:     "Onyeka Innocent",
     role:     "Co-Founder & CTO",
-    bio:      "Chidi leads Nelsolar's technology and product strategy. A software engineer and solar enthusiast, he built the Nelsolar platform from the ground up and oversees all technical operations and digital innovation.",
-    initials: "CE",
-    linkedin: "#",
+    bio:      "Onyeka leads Nelsolar's technology and product strategy. A frontend engineer and solar enthusiast, he built the Nelsolar platform from the ground up and oversees all technical operations and digital innovation.",
+    initials: "OI",
+    linkedin: "https://www.linkedin.com/in/onyeka-iwuji-970a7b20a/",
   },
 ];
 
@@ -68,7 +68,7 @@ function TeamCard({ member, index }: { member: TeamMember; index: number }) {
         className="
           w-28 h-28 rounded-full mx-auto
           bg-navy flex items-center justify-center
-          font-syne font-bold text-3xl text-white
+          font-syne font-bold text-3xl text-navy
           ring-4 ring-amber/30 ring-offset-4
         "
         aria-label={member.name}

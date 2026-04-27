@@ -277,7 +277,7 @@ export default function HeroSection() {
                     className="hidden sm:block w-px h-4 bg-white/20 -ml-2 mr-1"
                   />
                 )}
-                <CheckCircle size={15} className="text-amber shrink-0" strokeWidth={2.5} />
+                <CheckCircle size={15} className="text-white/80 shrink-0" strokeWidth={2.5} />
                 <span className="text-white/80 text-sm font-medium">{label}</span>
               </span>
             ))}

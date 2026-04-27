@@ -139,7 +139,7 @@ export default function AboutPage() {
         />
 
         <div className="relative z-10 max-w-4xl mx-auto">
-          <p className="font-syne text-sm font-bold uppercase tracking-[0.2em] text-amber">
+          <p className="font-syne text-sm font-bold uppercase tracking-[0.2em] text-white">
             About Us
           </p>
           <h1 className="mt-3 font-syne font-extrabold text-white text-4xl lg:text-6xl leading-tight">
@@ -181,8 +181,8 @@ export default function AboutPage() {
             </h2>
             <div className="mt-4 space-y-4 text-slate-body text-base leading-relaxed">
               <p>
-                Like millions of Nigerians, our founder Nelson Okafor spent years dealing
-                with unreliable grid power and the high cost of generator fuel. In 2019,
+                Like millions of Nigerians, our founder Nelson spent years dealing
+                with unreliable grid power and the high cost of generator fuel. In 2021,
                 he discovered the transformative potential of solar energy — and realised
                 that most Nigerians lacked access to genuine, affordable solar products
                 and professional installation services.
@@ -207,7 +207,7 @@ export default function AboutPage() {
             className="rounded-2xl p-8 flex flex-col items-center"
             style={{ backgroundColor: "#1E3A5F" }}
           >
-            <Sun size={48} className="text-amber" strokeWidth={1.4} aria-hidden="true" />
+            <Sun size={48} className="text-[#F59E0B]" strokeWidth={1.4} aria-hidden="true" />
             <h3 className="font-syne font-bold text-white text-xl text-center mt-6 mb-6">
               Our Core Values
             </h3>
@@ -216,7 +216,7 @@ export default function AboutPage() {
                 <li key={value} className="flex items-start gap-3">
                   <CheckCircle
                     size={18}
-                    className="text-amber shrink-0 mt-0.5"
+                    className="text-white shrink-0 mt-0.5"
                     strokeWidth={2}
                     aria-hidden="true"
                   />
@@ -328,7 +328,7 @@ export default function AboutPage() {
                 <span
                   key={city}
                   className="
-                    bg-amber/15 text-amber
+                    bg-amber/15 text-white
                     font-syne text-xs font-semibold
                     rounded-full px-3 py-1 text-center
                   "

@@ -42,33 +42,33 @@ const testimonials: Testimonial[] = [
     quote:
       "I was skeptical at first but Nelsolar proved me wrong. The battery has been running my home for 8 months without any issues. Genuine product, fair price in Naira. I have already referred four people.",
   },
-  {
-    name:     "Grace Nwosu",
-    location: "Enugu, Nigeria",
-    product:  "5kVA Off-Grid System",
-    rating:   5,
-    initials: "GN",
-    quote:
-      "I run a small tailoring business in Enugu. The constant power cuts were killing my productivity. Nelsolar installed a full off-grid system and now I work 24/7 without interruption. Saving ₦30,000 monthly on fuel.",
-  },
-  {
-    name:     "Musa Abdullahi",
-    location: "Kano, Nigeria",
-    product:  "Solar Street Light 60W",
-    rating:   5,
-    initials: "MA",
-    quote:
-      "Ordered six solar street lights for our community. Delivery was fast, the lights are very bright and have been working perfectly through rain and harmattan. Nelsolar customer service answered every question patiently.",
-  },
-  {
-    name:     "Chidinma Eze",
-    location: "Port Harcourt, Rivers",
-    product:  "Solar Generator 1kVA",
-    rating:   4,
-    initials: "CE",
-    quote:
-      "Great product and great service. The solar generator is perfect for my apartment — quiet, clean, and saves me a fortune on fuel. Only giving 4 stars because delivery took an extra day, but the team apologised and followed up.",
-  },
+  // {
+  //   name:     "Grace Nwosu",
+  //   location: "Enugu, Nigeria",
+  //   product:  "5kVA Off-Grid System",
+  //   rating:   5,
+  //   initials: "GN",
+  //   quote:
+  //     "I run a small tailoring business in Enugu. The constant power cuts were killing my productivity. Nelsolar installed a full off-grid system and now I work 24/7 without interruption. Saving ₦30,000 monthly on fuel.",
+  // },
+  // {
+  //   name:     "Musa Abdullahi",
+  //   location: "Kano, Nigeria",
+  //   product:  "Solar Street Light 60W",
+  //   rating:   5,
+  //   initials: "MA",
+  //   quote:
+  //     "Ordered six solar street lights for our community. Delivery was fast, the lights are very bright and have been working perfectly through rain and harmattan. Nelsolar customer service answered every question patiently.",
+  // },
+  // {
+  //   name:     "Chidinma Eze",
+  //   location: "Port Harcourt, Rivers",
+  //   product:  "Solar Generator 1kVA",
+  //   rating:   4,
+  //   initials: "CE",
+  //   quote:
+  //     "Great product and great service. The solar generator is perfect for my apartment — quiet, clean, and saves me a fortune on fuel. Only giving 4 stars because delivery took an extra day, but the team apologised and followed up.",
+  // },
 ];
 
 /* ─── Animation constants ────────────────────────────────────────────────── */

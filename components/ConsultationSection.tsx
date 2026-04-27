@@ -56,7 +56,7 @@ export default function ConsultationSection() {
           viewport={{ once: true, margin: "-80px" }}
           transition={sharedTransition}
         >
-          <p className="font-syne text-sm font-bold uppercase tracking-[0.2em] text-amber">
+          <p className="font-syne text-sm font-bold uppercase tracking-[0.2em] text-white">
             Free Consultation
           </p>
 
@@ -76,7 +76,7 @@ export default function ConsultationSection() {
               <li key={item} className="flex items-start gap-3">
                 <CheckCircle
                   size={20}
-                  className="text-amber shrink-0 mt-0.5"
+                  className="text-[#c8dce8] shrink-0 mt-0.5"
                   strokeWidth={2}
                   aria-hidden="true"
                 />
@@ -87,8 +87,8 @@ export default function ConsultationSection() {
 
           {/* Response time badge */}
           <div className="mt-8 inline-flex items-center gap-2 bg-amber/15 rounded-full px-4 py-2">
-            <Clock size={16} className="text-amber shrink-0" aria-hidden="true" />
-            <span className="font-syne text-amber text-sm font-semibold">
+            <Clock size={16} className="text-[#c8dce8] shrink-0" aria-hidden="true" />
+            <span className="font-syne text-[#c8dce8] text-sm font-semibold">
               Average response time: Under 30 minutes
             </span>
           </div>
