@@ -50,7 +50,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         {/* Category badge — top left */}
         <span className="
           absolute top-3 left-3
-          bg-amber text-navy
+          bg-amber text-white
           font-syne text-[10px] font-bold uppercase tracking-wide
           rounded-full px-3 py-1
           shadow-sm
@@ -65,7 +65,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           rounded-full px-3 py-1 shadow-sm
           ${isInStock
             ? "bg-solar-green text-white"
-            : "bg-amber text-navy"
+            : "bg-amber text-white"
           }
         `}>
           {product.badge}

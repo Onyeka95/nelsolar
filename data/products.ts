@@ -190,7 +190,7 @@ export const products: Product[] = [
       "A compact 1.5kVA pure sine wave inverter that produces clean, stable power safe for all sensitive electronics. Features overload protection, low battery shutdown, and a clear LCD display for system monitoring. Ideal for homes upgrading from a basic setup.",
     specs: ["1.5kVA", "Pure Sine Wave", "LCD Display"],
     badge: "In Stock",
-    image: "/images/products/inverter-1-5kva.jpg",
+    image: "/images/pure-sine-wave-inverter.jpeg",
   },
   {
     id: "inverter-3-5kva-solar",
@@ -216,7 +216,7 @@ export const products: Product[] = [
       "A smart 30A MPPT charge controller that maximises solar harvest by up to 30% compared to PWM controllers. Compatible with 12V and 24V battery banks and supports multiple battery types including lithium, gel, and AGM. LCD screen provides real-time charge status and system data.",
     specs: ["30A", "MPPT", "12V / 24V"],
     badge: "In Stock",
-    image: "/images/products/controller-30a-mppt.jpg",
+    image: "/images/mppt-charge-30.jpeg",
   },
   {
     id: "controller-60a-mppt",
@@ -228,7 +228,7 @@ export const products: Product[] = [
       "Professional-grade 60A MPPT charge controller for larger solar systems up to 48V. Handles high-wattage panel arrays and charges batteries with precision and efficiency. Built-in Bluetooth allows wireless monitoring via mobile app for remote system management.",
     specs: ["60A", "MPPT", "Bluetooth App"],
     badge: "Limited",
-    image: "/images/products/controller-60a-mppt.jpg",
+    image: "/images/mppt-charge-60.jpeg",
   },
 ];
 

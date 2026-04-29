@@ -159,7 +159,8 @@ export default function Footer() {
               Chat on WhatsApp
             </a>
             <a
-              href="mailto:hello@nelsolar.ng"
+              href="mailto:oshimaejike@gmail.com"
+              target="_blank"
               className="
                 flex items-center gap-2
                 border border-white text-white
@@ -195,7 +196,7 @@ export default function Footer() {
             <ul className="mt-6 space-y-3">
               {[
                 { Icon: Phone,  text: "+234 813 773 1660"              },
-                { Icon: Mail,   text: "hello@nelsolar.ng"              },
+                { Icon: Mail,   text: "oshimaejike@gmail.com"              },
                 { Icon: MapPin, text: "Lagos, Nigeria (Nationwide Service)" },
               ].map(({ Icon, text }) => (
                 <li key={text} className="flex items-start gap-2.5">

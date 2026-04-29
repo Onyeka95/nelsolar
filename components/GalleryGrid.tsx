@@ -82,7 +82,7 @@ function GalleryCard({
         {/* Category badge — top left */}
         <span className="
           absolute top-3 left-3
-          bg-amber text-navy
+          bg-amber text-white
           font-syne text-[10px] font-bold uppercase tracking-wide
           rounded-full px-3 py-1
         ">
@@ -93,7 +93,7 @@ function GalleryCard({
         {item.featured && (
           <span className="
             absolute top-3 right-3
-            bg-amber text-navy
+            bg-amber text-white
             font-syne text-[10px] font-bold
             rounded-full px-3 py-1
           ">

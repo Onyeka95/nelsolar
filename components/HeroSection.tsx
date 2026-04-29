@@ -326,7 +326,7 @@ export default function HeroSection() {
           </div>
 
           {/* Stat card — top right */}
-          <div className="absolute -top-4 -right-4 sm:top-6 sm:right-6 z-10">
+          <div className="absolute -top-4 -right-4 sm:top-6 sm:right-6 z-10 text-white">
             <FloatCard
               value="100%"
               label="Genuine Products"
