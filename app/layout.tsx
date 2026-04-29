@@ -84,6 +84,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${syne.variable} ${dmSans.variable}`}
+      data-scroll-behavior="smooth"
     >
       <head>
         <script
